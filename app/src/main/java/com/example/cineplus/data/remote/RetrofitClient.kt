@@ -1,5 +1,6 @@
 package com.example.cineplus.data.remote
 
+import android.content.Context
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -8,7 +9,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
 object RetrofitClient {
-    fun create(baseUrl: String, authInterceptor: Interceptor? = null): ApiService {
+    fun create(baseUrl: Context, authInterceptor: Interceptor? = null): ApiService {
         val logging = HttpLoggingInterceptor().apply {
             level = HttpLoggingInterceptor.Level.BODY
         }

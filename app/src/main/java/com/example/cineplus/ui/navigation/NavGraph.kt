@@ -14,20 +14,13 @@ fun NavGraph() {
     NavHost(navController = navController, startDestination = "start") {
         composable("start") { StartScreen(navController) }
         composable("login") { LoginScreen(navController) }
-        composable("home") { MovieListScreen(navController) }
-        composable("search") { SearchScreen(navController) }
-        composable("detail/{movieId}", arguments = listOf(navArgument("movieId") { type = NavType.StringType })) { backStackEntry ->
-            val id = backStackEntry.arguments?.getString("movieId") ?: ""
-            MovieDetailScreen(navController, id)
-        }
-        composable("purchase/{movieId}", arguments = listOf(navArgument("movieId") { type = NavType.StringType })) { backStackEntry ->
-            val id = backStackEntry.arguments?.getString("movieId") ?: ""
-            PurchaseScreen(navController, id)
-        }
-        composable("player/{movieId}", arguments = listOf(navArgument("movieId") { type = NavType.StringType })) { backStackEntry ->
-            val id = backStackEntry.arguments?.getString("movieId") ?: ""
-            PlayerScreen(navController, id)
-        }
         composable("profile") { ProfileScreen(navController) }
     }
 }
+
+@Composable
+fun LoginScreen(x0: rememberNavController) {
+    TODO("Not yet implemented")
+}
+
+fun composable(string: String, function: Any) {}
