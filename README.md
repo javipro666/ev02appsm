@@ -20,7 +20,7 @@ Para el desarrollo se utilizaron las siguientes tecnologías y librerías:
 
 Pasos para ejecutar el proyecto:
 
-1.Descargar el repositorio desde GitHub.
+1.**Descargar el repositorio desde GitHub.**
 2.Abrir el proyecto en Android Studio.
 3.Sincronizar Gradle y esperar a que finalice la configuración.
 4.Seleccionar el perfil “app” y ejecutar en un emulador Android.
