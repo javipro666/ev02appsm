@@ -2,7 +2,7 @@ CinePlusApp.
 <u>1. Caso elegido y alcance</u>
 
 El proyecto elegido corresponde a CinePlus, una aplicación tipo streaming enfocada en la visualización y gestión de contenido audiovisual.
-En este entregable (EP3) se trabajó principalmente en el diseño/UI, las validaciones de formularios, la navegación entre pantallas, la gestión del estado, la persistencia local y el uso de recursos nativos del dispositivo.
+En esta proyecto se trabajó principalmente en el diseño/UI, las validaciones de formularios, la navegación entre pantallas, la gestión del estado, la persistencia local y el uso de recursos nativos del dispositivo.
 
 <u>2. Requisitos y ejecución</u>
 
